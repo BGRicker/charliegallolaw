@@ -2,7 +2,7 @@
  *
  * Custom theme code styles
  * Written by Themelize.me (http://themelize.me)
- * 
+ *
  *******************************************************/
 h1,
 h2,
@@ -1984,4 +1984,9 @@ a:hover .icon-inverse-80 {
 .carousel.carousel-slideshow:hover .carousel-control {
   opacity: 0.6;
   filter: alpha(opacity=60);
+}
+
+#headshot{
+  width: 90%;
+  height: 90%;
 }
