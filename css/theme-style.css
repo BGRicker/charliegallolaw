@@ -584,7 +584,7 @@ body {
   padding-right: 1em;
 }
 #navigation .navbar-brand h1 {
-  font-size: 41px;
+  font-size: 38px;
   font-weight: bold;
   margin: 0;
   padding: 0;
@@ -719,11 +719,13 @@ body {
 }
 #footer .contact-block p {
   margin-bottom: 0.5em;
+  line-height: 30px;
 }
 #footer .subfooter {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   margin-top: 1em;
   padding-top: 1em;
+  text-align: center;
 }
 /* --------------------------------------------------
  * Main Menu (mobile first)
@@ -1281,6 +1283,9 @@ ul.inline > li:first-child {
   height: 14px;
   width: 14px;
 }
+.flexslider .pic img{
+  max-height: 500px;
+}
 .carousel#carousel-front {
   margin: 0;
   height: 300px;
@@ -1303,8 +1308,11 @@ ul.inline > li:first-child {
 .mission .inner {
   text-align: left;
   border-bottom: 1px solid rgba(55, 124, 168, 0.3);
-  text-align: center;
+  text-align: ;
   padding: 15px;
+}
+.mission .inner p{
+  font-size: 18px;
 }
 .mission .inner span {
   color: #3a82b0;
@@ -1963,6 +1971,9 @@ a:hover .icon-inverse-80 {
 .carousel:hover .carousel-control.right {
   right: 5px;
   left: auto;
+.pic{
+    height: 500px;
+  }
 }
 .carousel.carousel-slideshow {
   border: 1px solid #ccc;
