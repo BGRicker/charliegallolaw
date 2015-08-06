@@ -1,10 +1,10 @@
 /*/////////////////////////////////////////////////////////////////////
- // 
+ //
  // Custom theme code styles
  // Written by Themelize.me (http://themelize.me)
- // 
+ //
  // Colour overrides for the blue colour scheme
- // 
+ //
  /////////////////////////////////////////////////////////////////////*/
 /*
  * Template for all colour overrides.
@@ -25,7 +25,7 @@
 /*
  * --------------------------------------------------
  * 2. Colour overrides
- *-------------------------------------------------- 
+ *--------------------------------------------------
  */
 body {
   /* Desktop menu */
@@ -96,9 +96,9 @@ body .btn-primary.active {
   background-color: #1e435b \9;
 }
 body .navbar-inner {
-  background-image: -webkit-linear-gradient(top, #377ca8 0%, #2a6082 100%);
-  background-image: -o-linear-gradient(top, #377ca8 0%, #2a6082 100%);
-  background-image: linear-gradient(to bottom, #377ca8 0%, #2a6082 100%);
+  background-image: -webkit-linear-gradient(top, #377ca8 0%, #3B7EA9 100%);
+  background-image: -o-linear-gradient(top, #377ca8 0%, #3B7EA9 100%);
+  background-image: linear-gradient(to bottom, #377ca8 0%, #3B7EA9 100%);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff377ca8', endColorstr='#ff2a6082', GradientType=0);
   /* @see: Gradient maker: http://www.colorzilla.com/gradient-editor/ */
